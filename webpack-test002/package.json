@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js --progress --display-modules --color --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "style-loader": "^0.19.1",
     "webpack": "^3.10.0"
   }
 }
