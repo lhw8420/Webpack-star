@@ -6,15 +6,20 @@ module.exports = {
     },
     output: {
         path: __dirname + '/dist',
-        filename: 'js/[name]-[chunkhash].js'
+        filename: 'js/[name]-[chunkhash].js',
+        publicPath: 'http://www.baidu.com'
     },
     plugins: [
         new htmlWebpackPlugin({
             filename: 'index.html',
             template: 'index.html',
-            inject: 'body',
+            inject: false,
             title: 'webpack is good, I like',
-            date: new Date()
+            date: new Date(),
+            minify: {
+                collapseWhitespace: true,
+                removeComments: true
+            }
         })
     ]
 }
