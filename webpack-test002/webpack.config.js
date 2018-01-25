@@ -1,25 +1,31 @@
 var htmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path');
+
 module.exports = {
-    entry: {
-        main: './src/script/main.js',
-        public: './src/script/public.js'
-    },
+    entry: './src/app.js',
     output: {
         path: __dirname + '/dist',
-        filename: 'js/[name]-[chunkhash].js',
-        publicPath: 'http://www.baidu.com'
+        filename: 'js/[name].bundle.js'
+    },
+    module: {
+        loaders: [
+            {
+                test: /\.js$/,
+                loader: 'babel',
+                exclude: path.resolve(__dirname, '/node_modules'),
+                include: path.resolve(__dirname, '/src'),
+                query: {
+                    "presets": ["env"]
+                }
+            }
+        ]
     },
     plugins: [
         new htmlWebpackPlugin({
             filename: 'index.html',
             template: 'index.html',
-            inject: false,
-            title: 'webpack is good, I like',
-            date: new Date(),
-            minify: {
-                collapseWhitespace: true,
-                removeComments: true
-            }
+            title: ' this is webpack',
+            inject: 'body'
         })
     ]
 }
