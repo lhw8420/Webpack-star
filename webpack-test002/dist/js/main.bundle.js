@@ -202,7 +202,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(6);
+var	fixUrls = __webpack_require__(8);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -524,7 +524,7 @@ function updateLink (link, options, obj) {
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_layer_layer__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_common_css__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_common_css__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_common_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_common_css__);
 
 
@@ -545,7 +545,7 @@ new App();
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__layer_less__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__layer_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__layer_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__layer_html__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__layer_html__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__layer_html___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__layer_html__);
 
 
@@ -594,18 +594,47 @@ if(false) {
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(6);
 exports = module.exports = __webpack_require__(0)(false);
 // imports
 
 
 // module
-exports.push([module.i, ".test {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.layer {\n  width: 600px;\n  height: 200px;\n  background-color: green;\n}\n.layer > div {\n  width: 400px;\n  height: 100px;\n  background-color: red;\n}\n", ""]);
+exports.push([module.i, ".test {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.layer {\n  width: 600px;\n  height: 200px;\n  background-color: green;\n}\n.layer > div {\n  width: 400px;\n  height: 100px;\n  background: url(" + escape(__webpack_require__(7)) + ");\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
+}
+
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/Logo-A-6-0a8de.png";
+
+/***/ }),
+/* 8 */
 /***/ (function(module, exports) {
 
 
@@ -700,19 +729,19 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 7 */
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"layer\">\r\n    <div> this is a layer </div>\r\n</div>";
 
 /***/ }),
-/* 8 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(9);
+var content = __webpack_require__(11);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -737,7 +766,7 @@ if(false) {
 }
 
 /***/ }),
-/* 9 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(false);

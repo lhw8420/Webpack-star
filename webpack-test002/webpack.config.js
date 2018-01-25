@@ -90,7 +90,43 @@ module.exports = {
                     },
                     "sass-loader"
                 ]
+            },
+            {
+                test: /\.(png|jpg|gif|svg)$/,
+                use: [
+                    {
+                        loader:"url-loader",
+                        options:{
+                            limit: 1000,
+                            name: 'assets/[name]-[hash:5].[ext]'
+                        }
+                    },
+                    "image-webpack-loader"
+                ]
             }
+            // {
+            //     test: /\.(png|jpg|gif|svg)$/,
+            //     use: [
+            //         {
+            //             loader:"file-loader",
+            //             options:{
+            //                 name: 'assets/[name]-[hash:5].[ext]'
+            //             }
+            //         }
+            //     ]
+            // },
+            // {
+            //     test: /\.(png|jpg|gif|svg)$/,
+            //     use: [
+            //         {
+            //             loader:"url-loader",
+            //             options:{
+            //                 limit: 20000,
+            //                 name: 'assets/[name]-[hash:5].[ext]'
+            //             }
+            //         }
+            //     ]
+            // }
         ]
     },
     plugins: [
