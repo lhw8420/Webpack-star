@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>webpack is good, I like</title>
-    <script type="text/javascript">
-        /******/ (function(modules) { // webpackBootstrap
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -66,30 +60,16 @@
 /******/ 	__webpack_require__.p = "http://www.baidu.com";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ 3:
 /***/ (function(module, exports) {
 
-function hello(str) {
-    alert(str + 2);
-}
+
 
 /***/ })
-/******/ ]);
-    </script>
-</head>
 
-    Thu Jan 25 2018 14:30:02 GMT+0800 (中国标准时间)
-    
-        
-            <script type="text/javascript" src="http://www.baidu.com/js/public-a7fe04274d4161595e59.js"></script>
-        
-    
-        
-    
-    <!--我是一行注释！！-->
-</body>
-</html>
+/******/ });
