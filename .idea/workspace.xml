@@ -2,15 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2882d6-f109-4bfd-b022-07fe2d375e7b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/webpack-test002/src/components/layer/model.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webpack-test002/src/css/flex.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/webpack-test002/dist/index.html" afterPath="$PROJECT_DIR$/webpack-test002/dist/index.html" />
-      <change beforePath="$PROJECT_DIR$/webpack-test002/dist/js/main-5b96935ee8e964dd858c.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack-test002/dist/js/public-f86645e4e5066213788d.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack-test002/index.html" afterPath="$PROJECT_DIR$/webpack-test002/index.html" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/dist/js/main.bundle.js" afterPath="$PROJECT_DIR$/webpack-test002/dist/js/main.bundle.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/AUTHORS" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/AUTHORS" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/CHANGELOG.md" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/README.md" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/README.md" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/data/prefixes.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/data/prefixes.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/at-rule.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/at-rule.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/autoprefixer.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/autoprefixer.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/brackets.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/brackets.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/browsers.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/browsers.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/declaration.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/declaration.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/align-content.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/align-content.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/align-items.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/align-items.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/align-self.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/align-self.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/background-size.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/background-size.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/block-logical.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/block-logical.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/border-image.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/border-image.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/border-radius.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/border-radius.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/break-props.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/break-props.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/cross-fade.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/cross-fade.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/display-flex.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/display-flex.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/display-grid.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/display-grid.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/filter-value.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/filter-value.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/filter.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/filter.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-basis.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-basis.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-direction.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-direction.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-flow.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-flow.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-grow.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-grow.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-shrink.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-shrink.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-spec.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-spec.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-values.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-wrap.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex-wrap.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/flex.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/fullscreen.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/fullscreen.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/gradient.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/gradient.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/grid-end.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/grid-end.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/grid-row-align.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/grid-row-align.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/grid-start.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/grid-start.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/grid-template.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/grid-template.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/image-rendering.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/image-rendering.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/image-set.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/image-set.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/inline-logical.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/inline-logical.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/justify-content.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/justify-content.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/justify-items.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/mask-border.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/mask-border.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/order.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/order.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/pixelated.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/pixelated.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/placeholder.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/placeholder.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/stretch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/transform-decl.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/transform-decl.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/writing-mode.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/hacks/writing-mode.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/info.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/info.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/old-selector.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/old-selector.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/old-value.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/old-value.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/prefixer.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/prefixer.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/prefixes.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/prefixes.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/processor.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/processor.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/resolution.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/resolution.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/selector.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/selector.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/supports.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/supports.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/transition.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/transition.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/utils.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/utils.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/value.js" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/lib/value.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/package.json" afterPath="$PROJECT_DIR$/webpack-test002/node_modules/autoprefixer/package.json" />
       <change beforePath="$PROJECT_DIR$/webpack-test002/package-lock.json" afterPath="$PROJECT_DIR$/webpack-test002/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/webpack-test002/package.json" afterPath="$PROJECT_DIR$/webpack-test002/package.json" />
-      <change beforePath="$PROJECT_DIR$/webpack-test002/src/script/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack-test002/src/script/public.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/src/app.js" afterPath="$PROJECT_DIR$/webpack-test002/src/app.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.js" afterPath="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.js" />
+      <change beforePath="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.less" afterPath="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.less" />
       <change beforePath="$PROJECT_DIR$/webpack-test002/webpack.config.js" afterPath="$PROJECT_DIR$/webpack-test002/webpack.config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,16 +85,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack-test002/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack-test002/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,28 +102,37 @@
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1516866063800" expanded="true" signature="2931:2949" ph="{...}" />
-                <marker date="1516866063800" expanded="true" signature="2948:2949" ph="/*...*/" />
+                <marker date="1516872632871" expanded="true" signature="21787:21796" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpack-test002/webpack.config.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack-test002/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="375">
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack-test002/package.json">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack-test002/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="48">
+              <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack-test002/src/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -79,9 +141,11 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack-test002/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,8 +163,8 @@
       <file leaf-file-name="layer.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack-test002/src/components/layer/layer.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="100">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -109,8 +173,18 @@
       <file leaf-file-name="layer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack-test002/src/components/layer/layer.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack-test002/src/components/layer/model.less">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -123,6 +197,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -141,11 +216,14 @@
         <option value="$PROJECT_DIR$/webpack-test002/src/script/main.js" />
         <option value="$PROJECT_DIR$/webpack-test002/package.json" />
         <option value="$PROJECT_DIR$/webpack-test002/dist/index.html" />
-        <option value="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.less" />
         <option value="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.html" />
         <option value="$PROJECT_DIR$/webpack-test002/index.html" />
-        <option value="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.js" />
+        <option value="$PROJECT_DIR$/webpack-test002/src/css/flex.css" />
+        <option value="$PROJECT_DIR$/webpack-test002/src/css/common.css" />
         <option value="$PROJECT_DIR$/webpack-test002/src/app.js" />
+        <option value="$PROJECT_DIR$/webpack-test002/src/components/layer/model.less" />
+        <option value="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.js" />
+        <option value="$PROJECT_DIR$/webpack-test002/src/components/layer/layer.less" />
         <option value="$PROJECT_DIR$/webpack-test002/webpack.config.js" />
       </list>
     </option>
@@ -160,8 +238,8 @@
     <handled-path value="$PROJECT_DIR$/webpack-test002/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="498" />
-    <option name="y" value="422" />
+    <option name="x" value="166" />
+    <option name="y" value="271" />
     <option name="width" value="1498" />
     <option name="height" value="809" />
   </component>
@@ -229,6 +307,13 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="layer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Webpack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack-test002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -245,6 +330,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -359,10 +445,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16914000" />
+    <option name="totallyTimeSpent" value="23149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="422" width="1498" height="809" extended-state="0" />
+    <frame x="166" y="271" width="1498" height="809" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -602,19 +688,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-test002/src/components/layer/layer.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack-test002/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-test002/dist/js/main.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1415">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1516872632871" expanded="true" signature="21787:21796" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -626,22 +715,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-test002/dist/js/main.bundle.js">
+    <entry file="file://$PROJECT_DIR$/webpack-test002/src/css/flex.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1415">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1516866063800" expanded="true" signature="2931:2949" ph="{...}" />
-            <marker date="1516866063800" expanded="true" signature="2948:2949" ph="/*...*/" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-test002/package.json">
+    <entry file="file://$PROJECT_DIR$/webpack-test002/src/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -654,26 +739,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-test002/src/components/layer/layer.js">
+    <entry file="file://$PROJECT_DIR$/webpack-test002/src/components/layer/model.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-test002/src/components/layer/layer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack-test002/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="75">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-test002/src/components/layer/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack-test002/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="48">
+          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-test002/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
